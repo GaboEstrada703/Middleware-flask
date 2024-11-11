@@ -3,7 +3,7 @@ import requests
 
 app = Flask(__name__)
 
-
+VERIFY_TOKEN = "c89b10e3f20a4fba92b3a77cf044c9a9"
 
 # URL de webhook de Teams (reemplaza con la tuya)
 TEAMS_WEBHOOK_URL = 'https://activastudiolegal.webhook.office.com/webhookb2/5e6c94e4-5e61-4ba9-93e3-1d9cf1fa36bf@9df9b718-99b2-41da-8a6c-a00abb51cfa4/IncomingWebhook/79a80563e26249459d87786c70548aca/b9bc5f66-2d0b-4a73-8aed-fe2c32200f8c/V2FNr-vijxsGutIP27_FINNKUpszSAEL7wZuO5DMFJdZ41'
